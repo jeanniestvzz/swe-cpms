@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CPMS
+build_property.RootNamespace = CPMS
+build_property.ProjectDir = C:\Users\jeann\OneDrive\Desktop\Senior Year\Summer 2022\SWE\Project\CPMS\CPMS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\jeann\OneDrive\Desktop\Senior Year\Summer 2022\SWE\Project\CPMS\CPMS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Author/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Author/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Author/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/AddAuthorToTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRBdXRob3JUb1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/AddReviewerToTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZXZpZXdlclRvVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/BridgeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmlkZ2VUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/LoginFailure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkZhaWx1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/RemoveFromTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW1vdmVGcm9tVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Home/TableManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWJsZU1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/OneDrive/Desktop/Senior Year/Summer 2022/SWE/Project/CPMS/CPMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-avdqpdm0sn

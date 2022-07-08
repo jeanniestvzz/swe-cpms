@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<body></body>
+
+<div class="text-left">
+    <h4>Login Page</h4>
+    <hr />
+    <h1 class="display-4" >Welcome to the Conference Paper Management System</h1>
+    <hr />
+    <p>It is currently: @DateTime.Now</p>
+    <p></p>
+</div>
+
+@model CPMS.Models.UserModel
+<div class="row">
+    <div class="col-md-3" >
+        <form asp-action="ProcessLogin">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group" style="text-align:left">
+                <label asp-for="Username" class="control-label"></label>
+                <input type="text" asp-for="Username" class="form-control"/>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="text-align:left">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="text-align:left">
+                <input type="submit" value="Login" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
