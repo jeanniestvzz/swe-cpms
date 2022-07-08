@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CPMS.Models
 {
-    [Table("Author")]
+    [Table("Authors")]
     public partial class Author
     {
         public Author()
@@ -17,9 +17,9 @@ namespace CPMS.Models
         [Key]
         [Column("AuthorID")]
         public int AuthorId { get; set; }
-        [StringLength(50)]
+        [StringLength(9)]
         public string? FirstName { get; set; }
-        [StringLength(1)]
+        [StringLength(50)]
         public string? MiddleInitial { get; set; }
         [StringLength(50)]
         public string? LastName { get; set; }

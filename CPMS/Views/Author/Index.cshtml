@@ -3,12 +3,12 @@
 @{
     ViewData["Title"] = "Index";
 }
+<p>
+    <a asp-action="Create" >Create New</a>
+</p>
 
 <h1>Authors</h1>
 <hr />
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -104,3 +104,6 @@
 }
     </tbody>
 </table>
+<p>
+    <a asp-controller="Home" asp-action="LoginSuccess">Home</a>
+</p> 

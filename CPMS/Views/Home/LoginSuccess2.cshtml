@@ -1,0 +1,14 @@
+﻿@model CPMS.Models.UserModel
+
+<div>
+    <h4 style="font-size:200%;">Welcome Back</h>
+    <hr />
+    <dl class="row">
+        <p style="font-size:65%;"> What would you like to do today?</p>
+    </dl>
+</div>
+<div> 
+    <a asp-controller="Author" asp-action="Index2">Authors Table</a> <br />
+    <a asp-controller="Reviewer" asp-action="Index2">Reviewers Table</a><br /><br />
+    <a asp-action="Index">Logout</a>
+</div>

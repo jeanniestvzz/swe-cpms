@@ -28,17 +28,11 @@ namespace CPMS.Controllers
             return View();
         }
 
+        public IActionResult LoginSuccess2()
+        {
+            return View();
+        }
         public IActionResult LoginFailure()
-        {
-            return View();
-        }
-
-        public IActionResult TableManagement()
-        {
-            return View();
-        }
-
-        public IActionResult BridgeTable()
         {
             return View();
         }
@@ -48,22 +42,21 @@ namespace CPMS.Controllers
             return View();
         }
 
-        public IActionResult AddAuthorToTable()
-        {
-            return View();
-        }
-        public IActionResult AddReviewerToTable()
-        {
-            return View();
-        }
-
-
-
         public IActionResult ProcessLogin(UserModel userModel)
         {
             if (userModel.Username == "admin1" && userModel.Password == "cpmsadmin")
             {
                 return View("LoginSuccess", userModel);
+            }
+
+            else if (userModel.Username == "author" && userModel.Password == "author")
+            {
+                return View("LoginSuccess2", userModel);
+            }
+
+            else if (userModel.Username == "reviewer" && userModel.Password == "reviewer")
+            {
+                return View("LoginSuccess2", userModel);
             }
             else
             {

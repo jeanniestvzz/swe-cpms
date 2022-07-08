@@ -1,5 +1,5 @@
 ﻿@model CPMS.Models.UserModel
-<body></body>
+
 <div>
     <h4 style="font-size:200%;">Welcome Back</h>
     <hr />
@@ -8,8 +8,9 @@
     </dl>
 </div>
 <div> 
-    <a asp-action="TableManagement">Go to Table Management</a> <br />
-    <a asp-action="BridgeTable">Go to Bridge Table Management</a> <br />
-    <a asp-action="Reports">Go to Reports</a> <br /><br />
+    <a asp-controller="Author" asp-action="Index">Authors Table</a> <br />
+    <a asp-controller="Reviewer" asp-action="Index">Reviewers Table</a><br />
+    <a asp-controller="Paper" asp-action="Index">Papers Table</a><br />
+    <a asp-controller="Review" asp-action="Index">Reviews Table</a><br /><br />
     <a asp-action="Index">Logout</a>
 </div>

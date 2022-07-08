@@ -1,15 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CPMS.Data;
+using CPMS.Migrations;
 using CPMS.Models;
 using CPMS.Controllers;
 using System.Data;
 using System.Data.Entity;
 
+
 namespace CPMS.Controllers
 {
     public class AuthorController : Controller
     {
-        private readonly CPMSContext _context;
+        private CPMSContext _context;
 
         public AuthorController(CPMSContext context)
         {
@@ -22,30 +24,32 @@ namespace CPMS.Controllers
             return View(authors);
         }
 
-        [HttpGet]
-        public IActionResult Edit(int Id) 
+        public IActionResult Index2()
         {
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
-            Author author = _context.Authors.Where(p => p.AuthorId == Id).FirstOrDefault();
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
-            return View(author);
+            List<Author> authors = _context.Authors.ToList();
+            return View(authors);
         }
 
         [HttpGet]
+        public IActionResult Edit(int Id)
+        {
+            Author? author = _context.Authors.Where(p => p.AuthorId == Id).FirstOrDefault();
+            return View(author);
+        }
+
+        [HttpPost]
         public IActionResult Edit(Author author)
         {
             _context.Attach(author);
-            _context.Entry(author).State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Modified;
+            _context.Entry(author).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             _context.SaveChanges();
             return RedirectToAction("index");
         }
 
         [HttpGet]
-        public IActionResult Delete(int Id) 
+        public IActionResult Delete(int Id)
         {
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
-            Author author = _context.Authors.Where(p => p.AuthorId == Id).FirstOrDefault();
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
+            Author? author = _context.Authors.Where(p => p.AuthorId == Id).FirstOrDefault();
             return View(author);
         }
 
@@ -53,20 +57,31 @@ namespace CPMS.Controllers
         public IActionResult Delete(Author author)
         {
             _context.Attach(author);
-            _context.Entry(author).State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Deleted;
+            _context.Entry(author).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
             _context.SaveChanges();
             return RedirectToAction("index");
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
 
         [HttpPost]
         public IActionResult Create(Author author)
         {
-            var authorid = _context.Authors.Max(authid => authid.AuthorId);
-            author.AuthorId = authorid;
+            //var authorid = _context.Authors.Max(authid => authid.AuthorId);
+            //author.AuthorId = authorid;
             _context.Attach(author);
-            _context.Entry(author).State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Added;
+            _context.Entry(author).State = Microsoft.EntityFrameworkCore.EntityState.Added;
             _context.SaveChanges();
             return RedirectToAction("index");
+        }
+
+        public IActionResult Details(int Id)
+        {
+            Author? author = _context.Authors.Where(p => p.AuthorId == Id).FirstOrDefault();
+            return View(author);
         }
     }
 }

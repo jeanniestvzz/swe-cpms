@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CPMS.Models
 {
-    [Table("Paper")]
+    [Table("Papers")]
     public partial class Paper
     {
         public Paper()

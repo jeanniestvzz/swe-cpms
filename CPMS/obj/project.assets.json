@@ -10842,11 +10842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeann\\OneDrive\\Desktop\\Senior Year\\Summer 2022\\SWE\\Project\\CPMS\\CPMS\\CPMS.csproj",
+      "projectUniqueName": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\CPMS.csproj",
       "projectName": "CPMS",
-      "projectPath": "C:\\Users\\jeann\\OneDrive\\Desktop\\Senior Year\\Summer 2022\\SWE\\Project\\CPMS\\CPMS\\CPMS.csproj",
+      "projectPath": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\CPMS.csproj",
       "packagesPath": "C:\\Users\\jeann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeann\\OneDrive\\Desktop\\Senior Year\\Summer 2022\\SWE\\Project\\CPMS\\CPMS\\obj\\",
+      "outputPath": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeann\\AppData\\Roaming\\NuGet\\NuGet.Config",

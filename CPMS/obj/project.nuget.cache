@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W10D494uWwOIOC1/ghz7PySHfm2quxgUeT6/n9UGdcOcJwzJUBgar6sc/tuTBMYK1EnkzjuALmJrk0tYmAPOgw==",
+  "dgSpecHash": "21VvqVCYyXkqdUY4cZcrRUqJPk3dpYJ1IuenYEhcpvnj9Tdk908WEhX1KjuCOHeqdm0k4pGgbOfN0s+QyV5FkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeann\\OneDrive\\Desktop\\Senior Year\\Summer 2022\\SWE\\Project\\CPMS\\CPMS\\CPMS.csproj",
+  "projectFilePath": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\CPMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeann\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\jeann\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

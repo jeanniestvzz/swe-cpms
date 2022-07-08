@@ -1,10 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<body></body>
 
-<div class="text-left">
-    <h4>Login Page</h4>
+<div class="text-center">
+    <h4>Home Page</h4>
     <hr />
     <h1 class="display-4" >Welcome to the Conference Paper Management System</h1>
     <hr />
@@ -14,7 +13,7 @@
 
 @model CPMS.Models.UserModel
 <div class="row">
-    <div class="col-md-3" >
+    <div class="col-md-3" style="float:none;margin:auto;">
         <form asp-action="ProcessLogin">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
