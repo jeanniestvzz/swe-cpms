@@ -8,161 +8,177 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CPMS
 build_property.RootNamespace = CPMS
-build_property.ProjectDir = C:\Users\jeann\Github\swe-cpms\CPMS\
+build_property.ProjectDir = C:\Users\azimc\source\repos\swe-cpms5\CPMS\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\jeann\Github\swe-cpms\CPMS
+build_property.MSBuildProjectDirectory = C:\Users\azimc\source\repos\swe-cpms5\CPMS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Create.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Delete.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Details.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Edit.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Index.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Author/Index2.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Author/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/About.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/AddAuthorToTable.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/AddAuthorToTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRBdXRob3JUb1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/AddReviewerToTable.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/AddReviewerToTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZXZpZXdlclRvVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/BridgeTable.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/BridgeTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmlkZ2VUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/Index.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/LoginFailure.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/LoginFailure.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkZhaWx1cmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/LoginSuccess.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/LoginSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/LoginSuccess2.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/LoginSuccess2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/RemoveFromTable.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/LoginSuccess3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/RemoveFromTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW1vdmVGcm9tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/Reports.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/Reports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/TableManagement.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Home/TableManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWJsZU1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Create.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Delete.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Details.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Edit.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Index.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Create.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Paper/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Delete.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Details.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Edit.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Index.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Index2.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Create.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Reviewer/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcSW5kZXgzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Delete.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Details.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Edit.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Index.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Shared/Error.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Review/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/_ViewImports.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/_ViewStart.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Shared/_Layout.cshtml]
+[C:/Users/azimc/source/repos/swe-cpms5/CPMS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-avdqpdm0sn

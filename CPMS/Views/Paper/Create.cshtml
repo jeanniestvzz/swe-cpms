@@ -15,219 +15,224 @@
             <div class="form-group">
                 <label asp-for="AuthorId" class="control-label"></label>
                 <select asp-for="AuthorId" class ="form-control" asp-items="ViewBag.AuthorId"></select>
-            </div>
+            </div> <br>
             <div class="form-group">
                 <label asp-for="Active" class="control-label"></label>
                 <input asp-for="Active" class="form-control" />
                 <span asp-validation-for="Active" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FilenameOriginal" class="control-label"></label>
                 <input asp-for="FilenameOriginal" class="form-control" />
                 <span asp-validation-for="FilenameOriginal" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Filename" class="control-label"></label>
                 <input asp-for="Filename" class="form-control" />
                 <span asp-validation-for="Filename" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Certification" class="control-label"></label>
                 <input asp-for="Certification" class="form-control" />
                 <span asp-validation-for="Certification" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="NotesToReviewers" class="control-label"></label>
                 <input asp-for="NotesToReviewers" class="form-control" />
                 <span asp-validation-for="NotesToReviewers" class="text-danger"></span>
-            </div>
+            </div><br>
+
+            <u>Choose topics of the paper from the list: </u> <br><br>
+
             <div class="form-group">
                 <label asp-for="AnalysisOfAlgorithms" class="control-label"></label>
-                <input asp-for="AnalysisOfAlgorithms" class="form-control" />
+                <input type="radio" value="True" asp-for="AnalysisOfAlgorithms"/>
                 <span asp-validation-for="AnalysisOfAlgorithms" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Applications" class="control-label"></label>
-                <input asp-for="Applications" class="form-control" />
+                <input type="radio" value="True" asp-for="Applications" />
                 <span asp-validation-for="Applications" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Architecture" class="control-label"></label>
-                <input asp-for="Architecture" class="form-control" />
+                <input type="radio" value="True" asp-for="Architecture"/>
                 <span asp-validation-for="Architecture" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="ArtificialIntelligence" class="control-label"></label>
-                <input asp-for="ArtificialIntelligence" class="form-control" />
+                <input type="radio" value="True" asp-for="ArtificialIntelligence"/>
                 <span asp-validation-for="ArtificialIntelligence" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="ComputerEngineering" class="control-label"></label>
-                <input asp-for="ComputerEngineering" class="form-control" />
+                <input type="radio" value="True" asp-for="ComputerEngineering"/>
                 <span asp-validation-for="ComputerEngineering" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Curriculum" class="control-label"></label>
-                <input asp-for="Curriculum" class="form-control" />
+                <input type="radio" value="True" asp-for="Curriculum" />
                 <span asp-validation-for="Curriculum" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="DataStructures" class="control-label"></label>
-                <input asp-for="DataStructures" class="form-control" />
+                <input type="radio" value="True" asp-for="DataStructures"/>
                 <span asp-validation-for="DataStructures" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Databases" class="control-label"></label>
-                <input asp-for="Databases" class="form-control" />
+                <input type="radio" value="True" asp-for="Databases" />
                 <span asp-validation-for="Databases" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="DistanceLearning" class="control-label"></label>
-                <input asp-for="DistanceLearning" class="form-control" />
+                <input type="radio" value="True" asp-for="DistanceLearning" />
                 <span asp-validation-for="DistanceLearning" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="DistributedSystems" class="control-label"></label>
-                <input asp-for="DistributedSystems" class="form-control" />
+                <input type="radio" value="True" asp-for="DistributedSystems" />
                 <span asp-validation-for="DistributedSystems" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="EthicalSocietalIssues" class="control-label"></label>
-                <input asp-for="EthicalSocietalIssues" class="form-control" />
+                <input type="radio" value="True" asp-for="EthicalSocietalIssues"/>
                 <span asp-validation-for="EthicalSocietalIssues" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FirstYearComputing" class="control-label"></label>
-                <input asp-for="FirstYearComputing" class="form-control" />
+                <input type="radio" value="True" asp-for="FirstYearComputing" />
                 <span asp-validation-for="FirstYearComputing" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="GenderIssues" class="control-label"></label>
-                <input asp-for="GenderIssues" class="form-control" />
+                <input type="radio" value="True" asp-for="GenderIssues"/>
                 <span asp-validation-for="GenderIssues" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="GrantWriting" class="control-label"></label>
-                <input asp-for="GrantWriting" class="form-control" />
+                <input type="radio" value="True" asp-for="GrantWriting"/>
                 <span asp-validation-for="GrantWriting" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="GraphicsImageProcessing" class="control-label"></label>
-                <input asp-for="GraphicsImageProcessing" class="form-control" />
+                <input type="radio" value="True" asp-for="GraphicsImageProcessing" />
                 <span asp-validation-for="GraphicsImageProcessing" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="HumanComputerInteraction" class="control-label"></label>
-                <input asp-for="HumanComputerInteraction" class="form-control" />
+                <input type="radio" value="True" asp-for="HumanComputerInteraction"  />
                 <span asp-validation-for="HumanComputerInteraction" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="LaboratoryEnvironments" class="control-label"></label>
-                <input asp-for="LaboratoryEnvironments" class="form-control" />
+                <input type="radio" value="True" asp-for="LaboratoryEnvironments"  />
                 <span asp-validation-for="LaboratoryEnvironments" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Literacy" class="control-label"></label>
-                <input asp-for="Literacy" class="form-control" />
+                <input type="radio" value="True" asp-for="Literacy"  />
                 <span asp-validation-for="Literacy" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="MathematicsInComputing" class="control-label"></label>
-                <input asp-for="MathematicsInComputing" class="form-control" />
+                <input type="radio" value="True" asp-for="MathematicsInComputing" />
                 <span asp-validation-for="MathematicsInComputing" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Multimedia" class="control-label"></label>
-                <input asp-for="Multimedia" class="form-control" />
+                <input type="radio" value="True" asp-for="Multimedia"  />
                 <span asp-validation-for="Multimedia" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="NetworkingDataCommunications" class="control-label"></label>
-                <input asp-for="NetworkingDataCommunications" class="form-control" />
+                <input type="radio" value="True" asp-for="NetworkingDataCommunications"  />
                 <span asp-validation-for="NetworkingDataCommunications" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="NonMajorCourses" class="control-label"></label>
-                <input asp-for="NonMajorCourses" class="form-control" />
+                <input type="radio" value="True" asp-for="NonMajorCourses"  />
                 <span asp-validation-for="NonMajorCourses" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="ObjectOrientedIssues" class="control-label"></label>
-                <input asp-for="ObjectOrientedIssues" class="form-control" />
+                <input type="radio" value="True" asp-for="ObjectOrientedIssues"  />
                 <span asp-validation-for="ObjectOrientedIssues" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="OperatingSystems" class="control-label"></label>
-                <input asp-for="OperatingSystems" class="form-control" />
+                <input type="radio" value="True" asp-for="OperatingSystems"  />
                 <span asp-validation-for="OperatingSystems" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="ParallelsProcessing" class="control-label"></label>
-                <input asp-for="ParallelsProcessing" class="form-control" />
+                <input type="radio" value="True" asp-for="ParallelsProcessing" />
                 <span asp-validation-for="ParallelsProcessing" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Pedagogy" class="control-label"></label>
-                <input asp-for="Pedagogy" class="form-control" />
+                <input type="radio" value="True" asp-for="Pedagogy" />
                 <span asp-validation-for="Pedagogy" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="ProgrammingLanguages" class="control-label"></label>
-                <input asp-for="ProgrammingLanguages" class="form-control" />
+                <input type="radio" value="True" asp-for="ProgrammingLanguages" />
                 <span asp-validation-for="ProgrammingLanguages" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Research" class="control-label"></label>
-                <input asp-for="Research" class="form-control" />
+                <input type="radio" value="True" asp-for="Research"  />
                 <span asp-validation-for="Research" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="Security" class="control-label"></label>
-                <input asp-for="Security" class="form-control" />
+                <input type="radio" value="True" asp-for="Security" />
                 <span asp-validation-for="Security" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="SoftwareEngineering" class="control-label"></label>
-                <input asp-for="SoftwareEngineering" class="form-control" />
+                <input type="radio" value="True" asp-for="SoftwareEngineering" />
                 <span asp-validation-for="SoftwareEngineering" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="SystemsAnalysisAndDesign" class="control-label"></label>
-                <input asp-for="SystemsAnalysisAndDesign" class="form-control" />
+                <input type="radio" value="True" asp-for="SystemsAnalysisAndDesign"  />
                 <span asp-validation-for="SystemsAnalysisAndDesign" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="UsingTechnologyInTheClassroom" class="control-label"></label>
-                <input asp-for="UsingTechnologyInTheClassroom" class="form-control" />
+                <input type="radio" value="True" asp-for="UsingTechnologyInTheClassroom"/>
                 <span asp-validation-for="UsingTechnologyInTheClassroom" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="WebAndInternetProgramming" /> @Html.DisplayNameFor(model => model.WebAndInternetProgramming)
-                </label>
-            </div>
+            </div><br>
+            <div class="form-group">
+                <label asp-for="WebAndInternetProgramming" class="control-label"></label>
+                <input type="radio" value="True" asp-for="WebAndInternetProgramming"/>
+                <span asp-validation-for="WebAndInternetProgramming" class="text-danger"></span>
+         
+            </div><br>
             <div class="form-group">
                 <label asp-for="Other" class="control-label"></label>
                 <input asp-for="Other" class="form-control" />
                 <span asp-validation-for="Other" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="OtherDescription" class="control-label"></label>
                 <input asp-for="OtherDescription" class="form-control" />
                 <span asp-validation-for="OtherDescription" class="text-danger"></span>
-            </div>
+            </div><br>
+            <br/>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>

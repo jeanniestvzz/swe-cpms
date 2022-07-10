@@ -24,6 +24,12 @@ namespace CPMS.Controllers
             return View(authors);
         }
 
+        public IActionResult Index1()
+        {
+            List<Author> authors = _context.Authors.ToList();
+            return View(authors);
+        }
+
         public IActionResult Index2()
         {
             List<Author> authors = _context.Authors.ToList();
