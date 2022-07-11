@@ -68,16 +68,16 @@ namespace CPMS.Controllers
             return RedirectToAction("index");
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            Author author = new Author();
+            return View(author);
         }
 
         [HttpPost]
         public IActionResult Create(Author author)
         {
-            //var authorid = _context.Authors.Max(authid => authid.AuthorId);
-            //author.AuthorId = authorid;
             _context.Attach(author);
             _context.Entry(author).State = Microsoft.EntityFrameworkCore.EntityState.Added;
             _context.SaveChanges();

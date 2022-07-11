@@ -1403,3 +1403,6 @@ C:\Users\jeann\Github\swe-cpms\CPMS\obj\Debug\net6.0\refint\CPMS.dll
 C:\Users\jeann\Github\swe-cpms\CPMS\obj\Debug\net6.0\CPMS.pdb
 C:\Users\jeann\Github\swe-cpms\CPMS\obj\Debug\net6.0\CPMS.genruntimeconfig.cache
 C:\Users\jeann\Github\swe-cpms\CPMS\obj\Debug\net6.0\ref\CPMS.dll
+C:\Users\jeann\Github\swe-cpms\CPMS\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jeann\Github\swe-cpms\CPMS\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\jeann\Github\swe-cpms\CPMS\bin\Debug\net6.0\System.Web.Mvc.Extensions.dll

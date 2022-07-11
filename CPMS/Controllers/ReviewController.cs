@@ -63,14 +63,13 @@ namespace CPMS.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            Review review = new Review();
+            return View(review);
         }
 
         [HttpPost]
         public IActionResult Create(Review review)
         {
-            //var authorid = _context.Authors.Max(authid => authid.AuthorId);
-            //author.AuthorId = authorid;
             _context.Attach(review);
             _context.Entry(review).State = Microsoft.EntityFrameworkCore.EntityState.Added;
             _context.SaveChanges();
