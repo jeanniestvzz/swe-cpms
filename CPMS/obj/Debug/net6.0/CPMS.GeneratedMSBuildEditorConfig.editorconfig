@@ -43,18 +43,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/AddAuthorToTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRBdXRob3JUb1RhYmxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/AddReviewerToTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZXZpZXdlclRvVGFibGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/BridgeTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmlkZ2VUYWJsZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,18 +65,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/LoginSuccess3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/RemoveFromTable.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW1vdmVGcm9tVGFibGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/Reports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/TableManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWJsZU1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Create.cshtml]

@@ -27,12 +27,14 @@ namespace CPMS.Data
             } 
         }*/
 
+        // Query and save instances of all entities (Authors, Papers, Reviews, and Reviewers)
         public virtual DbSet<Author> Authors { get; set; } = null!;
         public virtual DbSet<Default> Defaults { get; set; } = null!;
         public virtual DbSet<Paper> Papers { get; set; } = null!;
         public virtual DbSet<Review> Reviews { get; set; } = null!;
         public virtual DbSet<Reviewer> Reviewers { get; set; } = null!;
 
+        // Builds all models for each entity and states various properties they hav
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Author>(entity =>
