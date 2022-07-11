@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CPMS",
+    "\\CPMS\\Views",
+    "\\CPMS\\Views\\Author",
+    "\\CPMS\\Views\\Review"
   ],
-  "SelectedNode": "\\CPMS.sln (CPMS.sln)",
+  "SelectedNode": "\\CPMS\\Views\\Review\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
