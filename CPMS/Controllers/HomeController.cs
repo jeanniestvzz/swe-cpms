@@ -56,7 +56,7 @@ namespace CPMS.Controllers
 
             else if (userModel.Username == "reviewer" && userModel.Password == "reviewer")
             {
-                return View("LoginSuccess2", userModel);
+                return View("LoginSuccess3", userModel);
             }
             else
             {
