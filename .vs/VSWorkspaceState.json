@@ -3,8 +3,9 @@
     "",
     "\\CPMS",
     "\\CPMS\\Views",
-    "\\CPMS\\Views\\Author"
+    "\\CPMS\\Views\\Author",
+    "\\CPMS\\Views\\Review"
   ],
-  "SelectedNode": "\\CPMS\\Views\\Author\\Edit.cshtml",
+  "SelectedNode": "\\CPMS\\Views\\Review\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

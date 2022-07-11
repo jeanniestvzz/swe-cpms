@@ -18,6 +18,12 @@ namespace CPMS.Controllers
             return View(reviews);
         }
 
+        public IActionResult Index2()
+        {
+            List<Review> reviews = _context.Reviews.ToList();
+            return View(reviews);
+        }
+
         public ReviewController(CPMSContext context)
         {
             _context = context;

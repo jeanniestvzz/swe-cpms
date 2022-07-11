@@ -71,6 +71,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/LoginSuccess3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Home/RemoveFromTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW1vdmVGcm9tVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -103,6 +107,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Paper/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -127,6 +135,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Reviewer/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3ZXJcSW5kZXgzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -145,6 +157,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeann/Github/swe-cpms/CPMS/Views/Review/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jeann/Github/swe-cpms/CPMS/Views/Shared/Error.cshtml]

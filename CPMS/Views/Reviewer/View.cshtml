@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<CPMS.Models.Review>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "View";
 }
 
-<h1>Reviews</h1>
+<h1>View</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -12,12 +12,6 @@
 <table class="table">
     <thead>
         <tr>
-             <th>
-                @Html.DisplayNameFor(model => model.Paper)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Reviewer)
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.AppropriatenessOfTopic)
             </th>
@@ -77,6 +71,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Complete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paper)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Reviewer)
             </th>
             <th></th>
         </tr>

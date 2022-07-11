@@ -28,6 +28,12 @@ namespace CPMS.Controllers
             return View(reviewers);
         }
 
+        public IActionResult Index3()
+        {
+            List<Reviewer> reviewers = _context.Reviewers.ToList();
+            return View(reviewers);
+        }
+
         [HttpGet]
         public IActionResult Edit(int Id)
         {
