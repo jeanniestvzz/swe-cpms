@@ -20,7 +20,9 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
       .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
       .Build();
 var connstring = configuration.GetConnectionString("DefaultConnection");*/
+
 builder.Services.AddDbContext<CPMSContext>(options => options.UseSqlServer("Server=JEANNIE-ESTEVEZ; Database=CPMS; User ID=ADMIN; Password=cpmsadmin; trusted_connection=yes;"));
+
 //DbContextOptionsBuilder optionsBuilder;
 //optionsBuilder.UseSqlServer("Server=JEANNIE-ESTEVEZ; Database=CPMS; User ID=ADMIN; Password=cpmsadmin; trusted_connection=yes;");
 
