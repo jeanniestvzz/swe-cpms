@@ -10837,19 +10837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeann\\.nuget\\packages\\": {}
+    "C:\\Users\\azimc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\CPMS.csproj",
+      "projectUniqueName": "C:\\Users\\azimc\\Source\\Repos\\swe-cpms5\\CPMS\\CPMS.csproj",
       "projectName": "CPMS",
-      "projectPath": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\CPMS.csproj",
-      "packagesPath": "C:\\Users\\jeann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeann\\Github\\swe-cpms\\CPMS\\obj\\",
+      "projectPath": "C:\\Users\\azimc\\Source\\Repos\\swe-cpms5\\CPMS\\CPMS.csproj",
+      "packagesPath": "C:\\Users\\azimc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\azimc\\Source\\Repos\\swe-cpms5\\CPMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jeann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\azimc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
